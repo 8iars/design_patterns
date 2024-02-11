@@ -1,3 +1,4 @@
+import AbstractFactory.Door;
 import AbstractFactory.IronDoorFactory;
 import AbstractFactory.WoodDoorFactory;
 
@@ -10,5 +11,8 @@ public class AbstractFactoryTest {
 		IronDoorFactory ironDoorFactory = new IronDoorFactory();
 		System.out.println(ironDoorFactory.makeDoor().getDescription());
 		System.out.println(ironDoorFactory.makeDoorExpert().getDescription());
+
+		Door door = woodDoorFactory.makeDoor(); //Calling WoodDoor through Door
+		System.out.println(door.getDescription());
 	}
 }
