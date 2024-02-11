@@ -25,12 +25,12 @@ public class WoddenDoor implements Door{
 		return "WoddenDoor [height=" + height + ", width=" + width + "]";
 	}
 
-	public void setHeight(float height) {
-		this.height = height;
-	}
+	// public void setHeight(float height) {
+	// 	this.height = height;
+	// }
 
-	public void setWidth(float width) {
-		this.width = width;
-	}
+	// public void setWidth(float width) {
+	// 	this.width = width;
+	// }
 
 }
